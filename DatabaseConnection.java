@@ -10,7 +10,7 @@ public class DatabaseConnection {
    // በ DatabaseConnection.java ውስጥ
 private static final String URL = "jdbc:sqlserver://localhost:1433;databaseName=BankDB;encrypt=true;trustServerCertificate=true;";
     private static final String USER = "sa"; // ያንተ የ SQL ተጠቃሚ ስም
-    private static final String PASS = "123456"; // ያንተ የ SQL ፓስወርድ
+    private static final String PASS = ""; // ያንተ የ SQL ፓስወርድ
 
     public static Connection getConnection() throws SQLException {
         try {
